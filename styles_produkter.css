@@ -78,17 +78,57 @@ li:hover ul a {
 }
 
 /* Regler för produktbilder */
-#first-images, second-images {
-    width: 90%;
-    max-width: 1200px;
+.fivePicsOneRow{
+    max-width: 22%;
 }
-#first-images img { width: 20%; }
-#first-images img:nth-child(1) { margin-right: 4%; }
-#first-images img:nth-child(2) { margin-right: 4%; }
-#first-images img:nth-child(3) { margin-right: 4%; }
+.twoPicsOneRow{
+    max-width: 42%;
+}
+
+.picBtn {
+    position: relative;
+    display:inline-block;
+    width: 100%;
+   
+  }
+  
+  .picBtn img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .picBtn .btn {
+    position: absolute;
+    bottom: 0%; 
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .picBtn .btn:hover {
+    background-color: black;
+  }
+
+
+
+
 
 #mainfooter{
     padding-bottom: 3vh;
+}
+
+
+#second-images {
+    width: 90%;
+    max-width: 1200px;
 }
 
 /*Regler för knapp*/
