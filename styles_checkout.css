@@ -1,0 +1,103 @@
+.right{
+    position: absolute;
+    right: 0px;
+    padding-right: 5%;
+
+}
+
+
+
+/*Regler för body*/
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+/*Regler för wrapper*/
+#wrapper{
+    width: 90%;
+    margin: auto;
+    display: flex; 
+    flex-direction: column;
+    min-height: 100vh; 
+    background-image: url("pictures/backgroundrepeat.jpg");    
+}
+
+/*Regler för loggan*/
+#header_logga{
+    height: 160px;
+    background-color: white;
+}
+
+/*Regler för loggan*/
+#bigpic{
+    max-height: 160px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+/*Regler för footern*/
+#mainfooter{
+    background: #2e5a41;
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-bottom: 2vh;
+}
+
+/*Regler för menyn*/
+#mainmenu{
+    padding-bottom: 32px;
+    margin-bottom: 20px;
+    background: #2e5a41; 
+    border-radius: 5px;  
+    display:flex;
+    justify-content: center;  
+}
+
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position: absolute;
+}
+li {
+    display:inline-block; 
+}
+li a {
+    display:block;
+    min-width:80px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background: #2e5a41;
+    text-decoration: none;
+}
+li:hover a {
+    background:#4e8667;
+}
+
+/*Regler för texten på startsidan*/
+#welcome{
+    background-color:white;
+    color: rgb(0, 0, 0);
+    max-width: 40%;
+    max-height: 30%;
+    padding: 2em;
+    margin: auto;
+    border-radius: 7px;
+}
+
+@media only screen and (min-width: 40em){
+    
+#footer{
+    padding: 10em;
+}
+
+}
