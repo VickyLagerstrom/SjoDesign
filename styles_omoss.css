@@ -1,0 +1,107 @@
+/*Regler för body*/
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+/*Regler för wrapper*/
+#wrapper{
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+    min-height: 100vh;/*Bestämmer minsta höjd på sidan*/
+}
+
+/*Regler för loggan*/
+#header_logga{
+    height: 160px;
+    background-color:white;
+}
+
+/*Regler för loggan*/
+#bigpic{
+    max-height: 160px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+/*Regler för footern*/
+#mainfooter{
+    background:#092855;
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/*Regler för menyn*/
+#mainmenu{
+    padding-bottom: 32px;
+    margin-bottom: 20px;
+    background: #092855; 
+    border-radius: 5px; 
+    display:flex;
+    justify-content: center;    
+}
+
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position: absolute;
+}
+li {
+    display:inline-block; 
+}
+li a {
+    display:block;
+    min-width:80px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background: #092855;
+    text-decoration: none;
+}
+li:hover a {
+    background:#3d5880;
+}
+li:hover ul a {
+    background: #f3f3f3;
+    color: #2f3036;
+    height: 40px;
+    line-height: 40px;
+}
+
+@media only screen and (min-width: 40em) {
+
+#header { grid-area: Header; }
+#designer_picture { grid-area: Bild; }
+#designer_info { grid-area: Text; }
+#mainfooter { grid-area: Footer; }
+#webbDesigner_info {grid-area: Text2; }
+
+#grid_container {
+    display: grid;
+    grid-template-areas:
+    'Header Header Header Header'
+    'Bild Bild Text Text'
+    'Text2 Text2 Text2 Text2'
+    'Footer Footer Footer Footer'
+   ;
+    grid-gap: 10px;
+    padding: 10px;
+    }
+
+#designer_info{
+    padding-top: 7em;
+}
+#mainfooter{
+    padding-bottom: 3vh;
+}
+
+
+} 

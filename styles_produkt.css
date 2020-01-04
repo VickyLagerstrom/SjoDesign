@@ -1,0 +1,141 @@
+/*Regler för body*/
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+/*Regler för wrapper*/
+#wrapper{
+    width: 90%;
+    margin: auto;
+    display: flex; /*Gör att footern hamnar längst ner*/
+    flex-direction: column;
+    min-height: 100vh;/*Bestämmer minsta höjd på sidan*/
+}
+
+/*Regler för loggan*/
+#header_logga{
+    height: 160px;
+    background-color:white;
+}
+
+/*Regler för loggan*/
+#bigpic{
+    max-height: 160px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+/*Regler för footern*/
+#mainfooter{
+    background:  #891953;
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/*Regler för menyn*/
+#mainmenu{
+    padding-bottom: 32px;
+    margin-bottom: 20px;
+    background: #891953;
+    border-radius: 5px; 
+    display:flex;
+    justify-content: center;    
+}
+
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position: absolute;
+}
+li {
+    display:inline-block; 
+}
+li a {
+    display:block;
+    min-width:80px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background: #891953;
+    text-decoration: none;
+}
+li:hover a {
+    background:#8b5d75;
+}
+li:hover ul a {
+    background: #f3f3f3;
+    color: #2f3036;
+    height: 40px;
+    line-height: 40px;
+}
+
+/* Regler för produktbilder */
+#productPicture {
+    max-width: 800px;
+}
+
+/*Regler för knapp*/
+#button{
+    background-color: black;
+    color: white;
+    font-family: font-family Georgia, Times, serif;
+    padding: 1em;
+}
+
+h4{
+    font-weight: bold;
+}
+
+/* Regler för Bakgrundsfilm */
+#movie{
+    position: relative;
+}
+#movie video {
+	width: 50%;	
+}
+#movie h3 { display: none; }
+
+#mainfooter{
+    padding-bottom: 3vh;
+}
+
+@media only screen and (min-width: 40em) {
+      
+    #header { grid-area: Header; }
+    #productPicture { grid-area: Bild; }
+    #productText { grid-area: Text; }
+    #addProduct { grid-area: Addera; }
+    #mainfooter { grid-area: Footer; }
+    
+    #grid_container {
+        display: grid;
+        grid-template-areas:
+        'Header Header Header Header'
+        'Bild Bild Text Text'
+        'Bild Bild Addera Addera'
+        'Footer Footer Footer Footer'
+       ;
+        grid-gap: 10px;
+        padding: 10px;
+        }
+
+        #productText{
+            padding: 2em;
+            padding-left: 5em;
+            max-width: 30em;
+        }    
+        #addProduct{
+            padding: 2em;
+            padding-left: 5em;
+        }
+    
+    } 
+    

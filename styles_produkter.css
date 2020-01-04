@@ -1,0 +1,117 @@
+/*Regler för body*/
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+/*Regler för wrapper*/
+#wrapper{
+    width: 90%;
+    margin: auto;
+    display: flex; 
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*Regler för loggan*/
+#header_logga{
+    height: 160px;
+    background-color:white;
+}
+
+/*Regler för loggan*/
+#bigpic{
+    max-height: 160px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+/*Regler för footern*/
+#mainfooter{
+    background:  #891953;
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/*Regler för menyn*/
+#mainmenu{
+    padding-bottom: 32px;
+    margin-bottom: 20px;
+    background: #891953;
+    border-radius: 5px; 
+    display:flex;
+    justify-content: center;    
+}
+
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position: absolute;
+}
+li {
+    display:inline-block; 
+}
+li a {
+    display:block;
+    min-width:80px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background: #891953;
+    text-decoration: none;
+}
+li:hover a {
+    background:#8b5d75;
+}
+li:hover ul a {
+    background: #f3f3f3;
+    color: #2f3036;
+    height: 40px;
+    line-height: 40px;
+}
+
+/* Regler för produktbilder */
+#first-images, second-images {
+    width: 90%;
+    max-width: 1200px;
+}
+#first-images img { width: 20%; }
+#first-images img:nth-child(1) { margin-right: 4%; }
+#first-images img:nth-child(2) { margin-right: 4%; }
+#first-images img:nth-child(3) { margin-right: 4%; }
+
+#mainfooter{
+    padding-bottom: 3vh;
+}
+
+/*Regler för knapp*/
+button{
+    background-color: black;
+    color: white;
+    font-family: font-family Georgia, Times, serif;
+    padding: 1em;
+}
+
+/*regler för små enheter, upp till 649px*/
+
+@media screen and (max-width: 40em) { 
+
+#first-images img { width: 100%; }
+#second-images img { width: 100%; }
+
+}
+    
+    
+    
+      
+    
+
+
+
