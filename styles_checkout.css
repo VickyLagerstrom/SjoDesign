@@ -1,31 +1,43 @@
-.right{
-    position: absolute;
-    right: 0px;
-    padding-right: 5%;
-
-}
-
-
-
-/*Regler för body*/
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
     margin: 0;
+    background:#E8E8E8;
+  }
+  #wrapper{
+      width: 80%;
+      margin: auto;
+      background: white;
+      min-height: 100vh;
+  }
+  #menu {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    height: 40px;
+    border-radius: 5px;
+   
+  }
+  #menu a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 22px;
+  }
+  #menu a.txt {
+    position: absolute;
+    right: 10px;
+  }
+#menu{
+    position: relative;
+    background: #891953;
+    display:flex;
+    justify-content: center; 
 }
-/*Regler för wrapper*/
-#wrapper{
-    width: 90%;
-    margin: auto;
-    display: flex; 
-    flex-direction: column;
-    min-height: 100vh; 
-    background-image: url("pictures/backgroundrepeat.jpg");    
-}
-
 /*Regler för loggan*/
 #header_logga{
     height: 160px;
-    background-color: white;
+    background-color:white;
 }
 
 /*Regler för loggan*/
@@ -36,68 +48,19 @@ body{
     margin-left: auto;
     margin-right: auto;   
 }
-
 /*Regler för footern*/
 #mainfooter{
-    background: #2e5a41;
+    background:  #891953;
     color: white;
     text-align: center;
     height: 40px;
     padding-top: 20px;
-    padding-bottom: 5px;
     margin-top: 20px;
     border-radius: 5px;
-    padding-bottom: 2vh;
-}
-
-/*Regler för menyn*/
-#mainmenu{
-    padding-bottom: 32px;
-    margin-bottom: 20px;
-    background: #2e5a41; 
-    border-radius: 5px;  
-    display:flex;
-    justify-content: center;  
-}
-
-ul {
-    list-style-type:none;
-    margin:0;
-    padding:0;
     position: absolute;
-}
-li {
-    display:inline-block; 
-}
-li a {
-    display:block;
-    min-width:80px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    color: #fff;
-    background: #2e5a41;
-    text-decoration: none;
-}
-li:hover a {
-    background:#4e8667;
+    bottom: 0;
+    width: 80%;
 }
 
-/*Regler för texten på startsidan*/
-#welcome{
-    background-color:white;
-    color: rgb(0, 0, 0);
-    max-width: 40%;
-    max-height: 30%;
-    padding: 2em;
-    margin: auto;
-    border-radius: 7px;
-}
 
-@media only screen and (min-width: 40em){
-    
-#footer{
-    padding: 10em;
-}
 
-}
