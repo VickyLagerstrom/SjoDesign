@@ -3,9 +3,12 @@
     <head> 
         <title>Sjö design</title> 
         <link href="styles_startsida.css" type ="text/css" rel="stylesheet" /> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+        <script src="script/main.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8"/>
-
+        <script src= "script/main.js"></script>
 <!-- Favicon -->
 <link rel="shortcut icon" href="pictures/favicon.png" type="image/x-icon">
 <link rel="icon" href="pictures/favicon.png" type="image/x-icon">
@@ -19,24 +22,24 @@
                      
                         <!--Loggan-->    
                         <div id= "header_logga">         
-                        <a href="index.html">
+                        <a href="startsida.html">
                         <img src="pictures/logga.png" alt="logga" id="bigpic"/>    
                         </a>
                         </div>         
 
              <!--Menyn-->
-            <nav id="mainmenu">
-                <label for="show-menu" class="show-menu">Meny</label>
-                <input type="checkbox" id="show-menu" role="button">
+             <nav class="topnav" id="myTopnav">
+                <a href="#"  class="icon" id="meny" onclick="myFunction()" >Meny</a>
+              
+                <a href="startsida.html">Startsida</a>
+                <a href="produkter.html">Produkter</a>
+               <a href="om oss.html">Om oss</a>
+              <a id="floatright" href="checkout.html" ><i class="fas fa-shopping-cart"></i></a>
             
-            <ul id="menu">
-                <li><a href="startsida.html">Startsida</a></li>
-                <li><a href="produkter.html">Produkter</a></li>
-                <li><a href="om oss.html">Om oss</a></li> 
-            </ul>
             </nav>
 
     </header> <!--Slut på header --> 
+
 
     <div id="welcome">
         <h2>Välkommen till Sjö design!</h2>
@@ -47,11 +50,14 @@
             endast finns i upplaga av fem.</p>
     </div>
 
+   
+
     <footer id= "mainfooter"><!--Start på footer. -->
     copy 2019 WorkByVicky   -   lisasjo@design.com
     </footer>  <!--Slut på footern -->
 
 </div> <!--Slut på wrapper. -->
+
 
 </body>
 </html>

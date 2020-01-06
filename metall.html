@@ -5,6 +5,8 @@
         <link href="styles_produkt.css" type ="text/css" rel="stylesheet" /> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <script src= "script/main.js"></script>
 
 <!-- Favicon -->
 <link rel="shortcut icon" href="pictures/favicon.png" type="image/x-icon">
@@ -20,22 +22,20 @@
                      
                         <!--Loggan-->    
                         <div id= "header_logga">         
-                        <a href="index.html">
+                        <a href="startsida.html">
                         <img src="pictures/logga.png" alt="logga" id="bigpic"/>    
                         </a>
                         </div>         
                 
              <!--Menyn-->
-            <nav id="mainmenu">
-                <label for="show-menu" class="show-menu">Meny</label>
-                <input type="checkbox" id="show-menu" role="button">
+             <nav class="topnav" id="myTopnav">
+                <a href="#"  class="icon" id="meny" onclick="myFunction()" >Meny</a>
+              
+                <a href="startsida.html">Startsida</a>
+                <a href="produkter.html">Produkter</a>
+               <a href="om oss.html">Om oss</a>
+              <a id="floatright" href="checkout.html" ><i class="fas fa-shopping-cart"></i></a>
             
-            <ul>
-                <li><a href="startsida.html">Startsida</a></li>
-                <li><a href="produkter.html">Produkter</a></li>
-                <li><a href="om oss.html">Om oss</a></li>
-             
-            </ul>
             </nav>
     </header>  <!--Slut på header-->
 
@@ -68,5 +68,7 @@
     </footer>  <!--Slut på footer-->
 
 </div> <!--Slut på wrapper. -->
+
+
 </body>
 </html>
