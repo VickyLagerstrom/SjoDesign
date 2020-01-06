@@ -1,7 +1,7 @@
 /*Regler för body*/
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
 }
 /*Regler för wrapper*/
 #wrapper{
@@ -15,8 +15,8 @@ body{
 
 /*regler för välkomstext*/
 #welcome{
-  color: white;
- background-color: grey;
+  color: black;
+ background-color: white;
  margin: 80px 80px 80px 80px;  
  padding: 20px 20px 20px 20px; 
  
@@ -74,8 +74,8 @@ body{
   font-size: 17px;
 }
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background:#4e8667;
+
 }
 #meny{
     display:none;
@@ -100,7 +100,7 @@ body{
   }
 
   #welcome{
-   margin-top: 20vh;
+   margin-top: 10vh;
    margin-left: 20px;
    margin-right: 20px;
    padding-left: 20px;

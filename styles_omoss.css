@@ -1,7 +1,7 @@
 /*Regler för body*/
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
 }
 /*Regler för wrapper*/
 #wrapper{
@@ -34,9 +34,8 @@ body{
     height: 40px;
     padding-top: 20px;
     margin-top: 20px;
-    position: absolute;
-    bottom:0;
-    width: 90%;
+    
+    width: 90vw;
  
 }
 
@@ -59,7 +58,7 @@ body{
   }
   .topnav a:hover {
     background:#3d5880;
-    color: black;
+  
   }
   #meny{
       display:none;

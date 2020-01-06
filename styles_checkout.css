@@ -1,3 +1,9 @@
+/*Regler för body*/
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -82,7 +88,7 @@ body {
 }
 .topnav a:hover {
   background:#8b5d75;
-  color: black;
+
 }
 #meny{
     display:none;

@@ -37,6 +37,11 @@ body{
     margin-top: 20px;
 }
 
+/*Regler för padding*/
+#first-images{
+  padding-top: 30px;
+}
+
 /* Regler för produktbilder */
 .fivePicsOneRow{
     max-width: 22%;
@@ -93,10 +98,10 @@ body{
 
 /*Regler för knapp*/
 button{
-    background-color: black;
-    color: white;
-    font-family: font-family Georgia, Times, serif;
-    padding: 1em;
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1em;
 }
 
 /*Regler för menyn*/
@@ -117,8 +122,8 @@ button{
     font-size: 17px;
   }
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background:#8b5d75;
+
   }
   #meny{
       display:none;
