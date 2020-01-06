@@ -142,7 +142,25 @@ button{
       width: 100vw;
     }
   
-  
+    .picBtn {
+      display:block;
+     
+    }
+    .picBtn img {
+      width: 250%;
+      padding-left: 10vw;
+      padding-right: 10vw;
+      padding-top: 20px;
+      
+    }
+
+      
+  .picBtn .btn {
+    position: absolute;
+    left: 25vw;
+
+  }
+      
    
   }
 

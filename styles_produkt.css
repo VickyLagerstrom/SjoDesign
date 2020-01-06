@@ -81,7 +81,16 @@ body{
     #wrapper, #mainfooter{
       width: 100vw;
     }
-  
+    
+    #productText, #addProduct{
+        padding: 20px 20px 20px 20px;
+    }
+    #productText h2{
+        text-align: center;
+    }
+    #productPicture{
+        margin: 20px 20px 20px 20px;
+    }
   
    
   }

@@ -13,6 +13,19 @@ body{
     background-image: url("pictures/backgroundrepeat.jpg");    
 }
 
+/*regler för välkomstext*/
+#welcome{
+  color: white;
+ background-color: grey;
+ margin: 80px 80px 80px 80px;  
+ padding: 20px 20px 20px 20px; 
+ 
+ 
+}
+#welcome h2{
+  color: black;
+}
+
 /*Regler för loggan*/
 #header_logga{
     height: 160px;
@@ -84,6 +97,14 @@ body{
   }
   #wrapper, #mainfooter{
     width: 100vw;
+  }
+
+  #welcome{
+   margin-top: 20vh;
+   margin-left: 20px;
+   margin-right: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
   }
 
 
