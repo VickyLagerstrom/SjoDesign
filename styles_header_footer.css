@@ -8,32 +8,7 @@ body {
       background: white;
       min-height: 100vh;
   }
-  #menu {
-    overflow: hidden;
-    background-color: #333;
-    position: relative;
-    height: 40px;
-    border-radius: 5px;
-   
-  }
-  #menu a {
-    color: white;
-    text-decoration: none;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    font-size: 22px;
-  }
-  #menu a.txt {
-    position: absolute;
-    right: 10px;
-  }
-#menu{
-    position: relative;
-    background: #891953;
-    display:flex;
-    justify-content: center; 
-}
+ 
 /*Regler för loggan*/
 #header_logga{
     height: 160px;
@@ -64,3 +39,45 @@ body {
 
 
 
+
+
+
+
+
+#mainmenu{
+
+  background: #891953;
+  border-radius: 5px;  
+  display:flex;
+  justify-content: center;  
+  height: 50px;
+  
+}
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+
+
+li {
+  display:inline-block; 
+}
+li a {
+  display:block;
+  min-width:80px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  background: #891953;
+  text-decoration: none;
+}
+li:hover a {
+  background:#4e8667;
+}
+
+.right {
+  position: absolute;
+  right: 10%;
+}
