@@ -1,9 +1,9 @@
-/*Regler för body*/
+/*Body*/
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
 }
-/*Regler för wrapper*/
+/*Wrapper*/
 #wrapper{
     width: 90%;
     margin: auto;
@@ -12,13 +12,12 @@ body{
     min-height: 100vh;
 }
 
-/*Regler för loggan*/
+/*Loggan*/
 #header_logga{
     height: 160px;
     background-color:white;
 }
 
-/*Regler för loggan*/
 #bigpic{
     max-height: 160px;
     width: auto;
@@ -27,7 +26,7 @@ body{
     margin-right: auto;   
 }
 
-/*Regler för footern*/
+/*Footer*/
 #mainfooter{
     background:  #891953;
     color: white;
@@ -37,12 +36,12 @@ body{
     margin-top: 20px;
 }
 
-/*Regler för padding*/
+/*De första 4 produktbilderna*/
 #first-images{
   padding-top: 30px;
 }
 
-/* Regler för produktbilder */
+/*Alla produktbilder*/
 .fivePicsOneRow{
     max-width: 22%;
 }
@@ -53,8 +52,7 @@ body{
 .picBtn {
     position: relative;
     display:inline-block;
-    width: 100%;
-   
+    width: 100%;   
   }
   
   .picBtn img {
@@ -82,21 +80,18 @@ body{
     background-color: black;
   }
 
-
-
-
+/*Footer*/
 
 #mainfooter{
     padding-bottom: 3vh;
 }
-
 
 #second-images {
     width: 90%;
     max-width: 1200px;
 }
 
-/*Regler för knapp*/
+/*Knappar*/
 button{
   background-color: black;
   color: white;
@@ -104,13 +99,11 @@ button{
   padding: 1em;
 }
 
-/*Regler för menyn*/
+/*Meny*/
+
 .topnav {
     overflow: hidden;
-    background-color: #891953;
-    
-  
-    
+    background-color: #891953;    
   }
   .topnav a {
     float: left;
@@ -132,11 +125,9 @@ button{
       float: right;
   }
   
-  
-  
-  /*regler för små enheter*/
+  /*Små enheter*/
   @media screen and (max-width: 600px) {
-      .topnav a:not(:first-child) {display: none;}
+    .topnav a:not(:first-child) {display: none;}
      #floatright {float:none;}
     .topnav.responsive a, #meny {
       float: none;
@@ -155,18 +146,14 @@ button{
       width: 250%;
       padding-left: 10vw;
       padding-right: 10vw;
-      padding-top: 20px;
-      
+      padding-top: 20px;      
     }
-
       
   .picBtn .btn {
     position: absolute;
     left: 25vw;
-
   }
-      
-   
+         
   }
 
 

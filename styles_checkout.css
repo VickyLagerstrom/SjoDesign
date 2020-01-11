@@ -1,7 +1,16 @@
-/*Regler för body*/
+/*Wrapper*/
+#wrapper{
+  width: 80%;
+  margin: auto;
+  background: white;
+  min-height: 100vh;
+}
+
+/*Body*/
 body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
+  background:#E8E8E8;
 }
 
 table {
@@ -27,25 +36,13 @@ tr:nth-child(even) {
     max-width: 40px;
    
 }
-
-body {
-    margin: 0;
-    background:#E8E8E8;
-  }
-  #wrapper{
-      width: 80%;
-      margin: auto;
-      background: white;
-      min-height: 100vh;
-  }
  
-/*Regler för loggan*/
+/*Loggan*/
 #header_logga{
     height: 160px;
     background-color:white;
 }
 
-/*Regler för loggan*/
 #bigpic{
     max-height: 160px;
     width: auto;
@@ -53,7 +50,7 @@ body {
     margin-left: auto;
     margin-right: auto;   
 }
-/*Regler för footern*/
+/*Footer*/
 #mainfooter{
     background:  #891953;
     color: white;
@@ -66,16 +63,12 @@ body {
     width: 80%;
 }
 
-
-
-/*Regler för menyn*/
+/*Meny*/
 
 .topnav {
   overflow: hidden;
   background:  #891953;
-  
-
-  
+    
 }
 .topnav a {
   float: left;
@@ -97,9 +90,7 @@ body {
     float: right;
 }
 
-
-
-/*regler för små enheter*/
+/*Små enheter*/
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
    #floatright {float:none;}
@@ -111,7 +102,5 @@ body {
   #wrapper, #mainfooter{
     width: 100vw;
   }
-
-
  
 }

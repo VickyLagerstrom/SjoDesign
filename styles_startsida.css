@@ -1,9 +1,9 @@
-/*Regler för body*/
+/*Body*/
 body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
 }
-/*Regler för wrapper*/
+/*Wrapper*/
 #wrapper{
     width: 80%;
     margin: auto;
@@ -13,26 +13,25 @@ body{
     background-image: url("pictures/backgroundrepeat.jpg");    
 }
 
-/*regler för välkomstext*/
+/*Välkomstext*/
 #welcome{
   color: black;
  background-color: white;
  margin: 80px 80px 80px 80px;  
- padding: 20px 20px 20px 20px; 
- 
- 
+ padding: 20px 20px 20px 20px;  
 }
+
+/*Välkomsttextens rubrik*/
 #welcome h2{
   color: black;
 }
 
-/*Regler för loggan*/
+/*Loggan*/
 #header_logga{
     height: 160px;
     background-color: white;
 }
 
-/*Regler för loggan*/
 #bigpic{
     max-height: 160px;
     width: auto;
@@ -41,7 +40,7 @@ body{
     margin-right: auto;   
 }
 
-/*Regler för footern*/
+/*Footern*/
 #mainfooter{
     background: #2e5a41; 
     color: white;
@@ -55,14 +54,12 @@ body{
 }
 
 
-/*Regler för menyn*/
+/*Menyn*/
 
 .topnav {
   overflow: hidden;
   background-color: #2e5a41;
-  
-
-  
+    
 }
 .topnav a {
   float: left;
@@ -84,9 +81,7 @@ body{
     float: right;
 }
 
-
-
-/*regler för små enheter*/
+/*Små enheter*/
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
    #floatright {float:none;}
@@ -106,7 +101,5 @@ body{
    padding-left: 20px;
    padding-right: 20px;
   }
-
-
  
 }

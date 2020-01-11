@@ -1,9 +1,9 @@
-/*Regler för body*/
+/*Body*/
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
 }
-/*Regler för wrapper*/
+/*Wrapper*/
 #wrapper{
     width: 90%;
     margin: auto;
@@ -12,13 +12,12 @@ body{
     min-height: 100vh;/*Bestämmer minsta höjd på sidan*/
 }
 
-/*Regler för loggan*/
+/*Loggan*/
 #header_logga{
     height: 160px;
     background-color:white;
 }
 
-/*Regler för loggan*/
 #bigpic{
     max-height: 160px;
     width: auto;
@@ -27,7 +26,7 @@ body{
     margin-right: auto;   
 }
 
-/*Regler för footern*/
+/*Footer*/
 #mainfooter{
     background:  #891953;
     color: white;
@@ -35,17 +34,14 @@ body{
     height: 40px;
     padding-top: 20px;
     margin-top: 20px;
-
 }
 
-/*Regler för menyn*/
+/*Meny*/
 
 .topnav {
     overflow: hidden;
     background:  #891953;
-    
-  
-    
+        
   }
   .topnav a {
     float: left;
@@ -66,10 +62,8 @@ body{
   #floatright{
       float: right;
   }
-  
-  
-  
-  /*regler för små enheter*/
+    
+  /*Små enheter*/
   @media screen and (max-width: 600px) {
       .topnav a:not(:first-child) {display: none;}
      #floatright {float:none;}
@@ -78,6 +72,7 @@ body{
       display: block;
       text-align: center;
     }
+
     #wrapper, #mainfooter{
       width: 100vw;
     }
@@ -91,16 +86,15 @@ body{
     #productPicture{
         margin: 20px 20px 20px 20px;
     }
-  
-   
+     
   }
 
-/* Regler för produktbilder */
+/*Produktbilder*/
 #productPicture {
     max-width: 800px;
 }
 
-/*Regler för knapp*/
+/*Knappar*/
 #button{
     background-color: black;
     color: white;
@@ -112,7 +106,7 @@ h4{
     font-weight: bold;
 }
 
-/* Regler för Bakgrundsfilm */
+/*Bakgrundsfilm*/
 #movie{
     position: relative;
 }
@@ -125,6 +119,7 @@ h4{
     padding-bottom: 3vh;
 }
 
+/*Stora enheter*/
 @media only screen and (min-width: 40em) {
       
     #header { grid-area: Header; }

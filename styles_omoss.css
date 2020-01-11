@@ -1,23 +1,22 @@
-/*Regler för body*/
+/*Body*/
 body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
 }
-/*Regler för wrapper*/
+/*Wrapper*/
 #wrapper{
     width: 90%;
     margin: auto;
     flex-direction: column;
-    min-height: 100vh;/*Bestämmer minsta höjd på sidan*/
+    min-height: 100vh;
 }
 
-/*Regler för loggan*/
+/*Loggan*/
 #header_logga{
     height: 160px;
     background-color:white;
 }
 
-/*Regler för loggan*/
 #bigpic{
     max-height: 160px;
     width: auto;
@@ -26,26 +25,21 @@ body{
     margin-right: auto;   
 }
 
-/*Regler för footern*/
+/*Footer*/
 #mainfooter{
     background:#092855;
     color: white;
     text-align: center;
     height: 40px;
     padding-top: 20px;
-    margin-top: 20px;
-    
-    width: 90vw;
- 
+    margin-top: 20px;  
+    width: 90vw; 
 }
 
-/*Regler för menyn*/
+/*Menyn*/
 .topnav {
     overflow: hidden;
-    background: #092855;
-    
-  
-    
+    background: #092855;    
   }
   .topnav a {
     float: left;
@@ -67,9 +61,7 @@ body{
       float: right;
   }
  
-
-
-  /*regler för små enheter*/
+/*Små enheter*/
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
    #floatright {float:none;}
@@ -90,13 +82,10 @@ body{
   #designer_info h2, #webbDesigner_info h2{
     text-align: center;
   }
- 
 
-
- 
 }
 
-
+/*Stora enheter*/
 @media only screen and (min-width: 40em) {
 
 #header { grid-area: Header; }
@@ -123,7 +112,5 @@ body{
 #mainfooter{
     padding-bottom: 3vh;
 }
-
-
 
 } 
