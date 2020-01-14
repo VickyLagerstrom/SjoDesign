@@ -102,5 +102,11 @@ tr:nth-child(even) {
   #wrapper, #mainfooter{
     width: 100vw;
   }
+
+    /*Footern*/
+#mainfooter{
+  position: static;
+  width: 100%;
+}
  
 }
