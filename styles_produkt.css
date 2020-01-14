@@ -7,9 +7,9 @@ body{
 #wrapper{
     width: 90%;
     margin: auto;
-    display: flex; /*Gör att footern hamnar längst ner*/
+    display: flex; 
     flex-direction: column;
-    min-height: 100vh;/*Bestämmer minsta höjd på sidan*/
+    min-height: 100vh;
 }
 
 /*Loggan*/
@@ -53,9 +53,9 @@ body{
     font-size: 17px;
   }
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #8b5d75;
   }
+
   #meny{
       display:none;
   }
