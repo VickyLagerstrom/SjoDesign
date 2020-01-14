@@ -103,6 +103,10 @@ tr:nth-child(even) {
     width: 100vw;
   }
 
+  #checkoutsum{
+    width: 100%;
+  }
+
     /*Footern*/
 #mainfooter{
   position: static;
