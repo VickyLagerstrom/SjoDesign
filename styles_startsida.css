@@ -101,5 +101,11 @@ body{
    padding-left: 20px;
    padding-right: 20px;
   }
+
+  /*Footern*/
+#mainfooter{
+  position: static;
+  width: 100%;
+}
  
 }
