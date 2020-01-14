@@ -62,6 +62,7 @@ body{
   #floatright{
       float: right;
   }
+
     
   /*Små enheter*/
   @media screen and (max-width: 600px) {
@@ -85,6 +86,10 @@ body{
     }
     #productPicture{
         margin: 20px 20px 20px 20px;
+    }
+
+    .little{
+        max-width: 80%;
     }
      
   }
@@ -149,6 +154,8 @@ h4{
             padding: 2em;
             padding-left: 5em;
         }
+
+       
     
     } 
     
