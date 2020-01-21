@@ -94,6 +94,12 @@ tr:nth-child(even) {
   width: 100%;
 }
 
+/*Footern*/
+#mainfooter{
+  position: static;
+  width: 100%;
+}
+
 /*Små enheter*/
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
@@ -104,15 +110,7 @@ tr:nth-child(even) {
     text-align: center;
   }
   #wrapper, #mainfooter{
-    width: 100vw;
+    width: 100%;
   }
-
-
-
-    /*Footern*/
-#mainfooter{
-  position: static;
-  width: 100%;
-}
  
 }
