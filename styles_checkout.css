@@ -90,6 +90,10 @@ tr:nth-child(even) {
     float: right;
 }
 
+#checkoutsum{
+  width: 100%;
+}
+
 /*Små enheter*/
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
@@ -103,9 +107,7 @@ tr:nth-child(even) {
     width: 100vw;
   }
 
-  #checkoutsum{
-    width: 100%;
-  }
+
 
     /*Footern*/
 #mainfooter{
